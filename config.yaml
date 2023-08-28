@@ -33,7 +33,7 @@ modeling:
     # Here -1 means all available cores
     n_jobs: -1
     criterion: mae
-    max_features: 0.1
+    max_features: 0.75
     # DO not change the following
     oob_score: true
 
@@ -47,7 +47,7 @@ parameters:
     input_artifact: "sample.csv:latest"
     output_artifact: "clean_data.csv"
     output_type: "clean_sample"
-    artifact_description: "Data with outliers and null values removed"
+    output_description: "Data with outliers and null values removed"
 
   data_check:
     csv: "clean_data.csv:latest"

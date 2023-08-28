@@ -6,27 +6,27 @@ entry_points:
     parameters:
 
       input_artifact:
-        description: ## ADD DESCRIPTION
+        description: "input artifacts"
         type: string
 
       output_artifact:
-        description: ## ADD DESCRIPTION
+        description: "name of the produced artifact" 
         type: string
 
       output_type:
-        description: ## ADD DESCRIPTION
+        description: "type of the artifact"
         type: string
 
       output_description:
-        description: ## ADD DESCRIPTION
+        description: "description of the artifact"
         type: string
 
       min_price:
-        description: ## ADD DESCRIPTION
+        description: "minimum price to include"
         type: string
 
       max_price:
-        description: ## ADD DESCRIPTION
+        description: "maximum price to include"
         type: string
 
 

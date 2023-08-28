@@ -59,8 +59,8 @@ def go(config: DictConfig):
                     "input_artifact": config["parameters"]["basic_cleaning"]["input_artifact"],
                     "output_artifact": config["parameters"]["basic_cleaning"]["output_artifact"],
                     "output_type": config["parameters"]["basic_cleaning"]["output_type"],
-                    "artifact_description":
-                      config["parameters"]["basic_cleaning"]["artifact_description"],
+                    "output_description":
+                      config["parameters"]["basic_cleaning"]["output_description"],
                         "min_price": config['etl']['min_price'],
                         "max_price": config['etl']['max_price']
                     },
