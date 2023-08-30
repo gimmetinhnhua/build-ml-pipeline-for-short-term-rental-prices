@@ -23,11 +23,11 @@ entry_points:
 
       min_price:
         description: "minimum price to include"
-        type: string
+        type: int
 
       max_price:
         description: "maximum price to include"
-        type: string
+        type: int
 
 
     command: >-
